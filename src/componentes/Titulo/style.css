@@ -1,0 +1,17 @@
+.titulo{
+    height: 115px; 
+    border-bottom: 1px solid #e2e2e2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+
+
+h1{
+    font-weight: lighter;
+    font-size: 25px;
+    margin-left: 20px;
+}

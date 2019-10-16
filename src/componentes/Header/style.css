@@ -1,0 +1,15 @@
+.barra{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+
+header#cabecalho{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+
+

@@ -1,0 +1,47 @@
+h3{
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-left: -20px;
+}
+
+.post{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.btn{
+    border: none;
+    width: auto;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+
+.btnEditar{
+    color: #000000;
+}
+
+.data{
+    border-top: 1px solid #f5f5f5;
+}
+
+.data p{
+    margin-top: 5px;
+    font-size: 10px;
+    color: #beb9b9;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descricao p{
+    font-weight: lighter;
+}
+
+.apagarEditar{
+    display: flex;
+}

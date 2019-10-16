@@ -1,0 +1,50 @@
+label{
+    margin-top: 5px;
+    font-size: 10px;
+    color: #beb9b9;
+    font-weight: bold;
+}
+
+.conteudoNovoPost{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+input[type=text], textarea{
+    border: none;
+    border-bottom: solid 1px #000000;
+    width: 100%;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+input[type=submit], button{
+    width: 150px;
+    line-height: 3;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: #0069d9;
+     border-color: #0062cc;
+}
+
+.btn1{
+    background-color:#007bff;
+    color: #ededed;
+}
+
+.btn2:hover{
+    background-color: #edededf6;
+     border-color: #edededf6;
+}
+
+.btn2{
+    margin-left: 15px;
+}
+
+.botoes{
+    display: flex;
+}

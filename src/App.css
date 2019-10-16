@@ -1,0 +1,37 @@
+
+.lado-lado{
+    display: flex;
+}
+
+.area1{
+    max-width: 1085px;
+    overflow:hidden;
+    min-height: 555px;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.area1 .botoesPag{
+    text-align: center;
+}
+
+.area2{
+    margin-right: 15px;
+    max-width: 300px;
+}
+
+.btnPag{
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+    font-weight: normal;
+    margin-top: 45px;
+    font-size: 19px;
+}
+
+.seta{
+    font-weight: bold;
+}
+
