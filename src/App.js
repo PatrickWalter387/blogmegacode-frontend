@@ -6,7 +6,7 @@ import PublicacoesArea from './componentes/PublicacoesArea/index.js'
 import Menu from './componentes/Menu/index.js'
 
 class App extends Component {
-  /
+  
   constructor(props){
     super(props);
 
