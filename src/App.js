@@ -6,7 +6,7 @@ import PublicacoesArea from './componentes/PublicacoesArea/index.js'
 import Menu from './componentes/Menu/index.js'
 
 class App extends Component {
-  
+  /
   constructor(props){
     super(props);
 
@@ -23,7 +23,7 @@ class App extends Component {
 
   componentDidMount() {
 
-    //Armazena Consulta Completa Posts
+    //Armazena a Consulta Completa Posts
     this.callApi()
     .then(resp => this.setState({
       res: resp
