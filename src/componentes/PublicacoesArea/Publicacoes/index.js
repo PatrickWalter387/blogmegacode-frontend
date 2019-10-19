@@ -36,7 +36,7 @@ export default class Publicacoes extends Component{
     }
 
     componentDidMount(){
-       esconderBotoes();
+        this.esconderBotoes();
     }
 
     render(){
@@ -50,7 +50,7 @@ export default class Publicacoes extends Component{
           };
 
         return(
-            <div className="post" onMouseEnter={mostraBotoes()} onMouseOut={esconderBotoes()}>
+            <div className="post" onMouseEnter={this.mostraBotoes()} onMouseOut={this.esconderBotoes()}>
                 <div className="barra">
                     <h3>{this.props.post.titulo}</h3> 
                 <div className="apagarEditar">
