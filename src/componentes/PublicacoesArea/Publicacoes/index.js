@@ -23,6 +23,21 @@ export default class Publicacoes extends Component{
     
     }
 
+    //Mostra os Botoes
+    mostraBotoes(){
+        const post = document.getElementsByClassName("post");
+        post[0].syle.display = "flex";
+    }
+
+    //Esconde os Botes
+    esconderBotoes(){
+        const post = document.getElementsByClassName("post");
+        post[0].style.display = "none";
+    }
+
+    componentDidMount(){
+        this.esconderBotoes;
+    }
 
     render(){
 
@@ -35,7 +50,7 @@ export default class Publicacoes extends Component{
           };
 
         return(
-            <div className="post">
+            <div className="post" onMouseEnter={this.mostraBotoes} onMouseOut={this.esconderBotoes}>
                 <div className="barra">
                     <h3>{this.props.post.titulo}</h3> 
                 <div className="apagarEditar">
