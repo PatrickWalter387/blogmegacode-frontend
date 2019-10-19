@@ -32,6 +32,7 @@ export default class Publicacoes extends Component{
     //Esconde os Botes
     esconderBotoes(){
         const post = document.getElementsByClassName("post");
+        
         post[0].style.display = "none";
     }
 
