@@ -19,7 +19,6 @@ export default class Publicacoes extends Component{
 
     //Mostra os Botoes
     mostraBotoes = () =>{
-        console.log("OVO CHORA");
         this.setState({
             visualizacaoBotoes: true
         });
@@ -27,7 +26,6 @@ export default class Publicacoes extends Component{
 
     //Esconde os Botes
     esconderBotoes = () =>{
-        console.log("OVO CHORA2");
         this.setState({
             visualizacaoBotoes: false
         });
