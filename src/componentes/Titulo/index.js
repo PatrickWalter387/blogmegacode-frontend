@@ -10,7 +10,7 @@ export default class Titulo extends Component{
                 <div className="titulo">
                     <MenuLateral></MenuLateral>
                     <div className="t2">
-                        <h1>BLOG DA MEGACODE</h1>
+                        <h1>BLOG REACT</h1>
                     </div>
                 </div> 
 
